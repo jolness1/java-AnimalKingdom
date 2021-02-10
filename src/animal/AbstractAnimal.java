@@ -23,7 +23,7 @@ abstract class AbstractAnimal
 
 	public int getId()
 	{
-		returnId
+		return id;
 	}
 	public String getName()
 	{
