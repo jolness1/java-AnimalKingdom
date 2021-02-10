@@ -19,6 +19,43 @@ abstract class AbstractAnimal
 		food = 0;
 	}
 
+	//get and set
+
+	public int getId()
+	{
+		returnId
+	}
+	public String getName()
+	{
+		return name;
+	}
+
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+
+	public int getYearDiscovered()
+	{
+		return yearDiscovered;
+	}
+
+	public void setYearDiscovered(int yearDiscovered)
+	{
+		this.yearDiscovered = yearDiscovered;
+	}
+
+	public int getFood()
+	{
+		return food;
+	}
+
+	public void setFood(int food)
+	{
+		this.food = food;
+	}
+
+
 	//Abstract Methods
 
 	abstract String move();
